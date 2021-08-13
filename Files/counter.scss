@@ -18,7 +18,8 @@ body {
     background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
 }
 .container {
-    height: 50vh;
+    // background-color: brown;
+    height:auto;
     width: 40vw;
     @include CenterDiv(space-around);
 }
@@ -42,6 +43,7 @@ $button-text-color: #fff;
 $baby-blue: #f8faff;
 
 .bubbly-button {
+    margin-top: 5px;
     font-family: "Cookie", cursive;
     padding: 0.3em 0.7em;
     background-color: $button-bg;
